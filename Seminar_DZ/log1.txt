@@ -1,0 +1,114 @@
+авг 19 12:22:10 userpc sshd[11448]: Accepted password for user2 from 127.0.0.1 port 59516 ssh2
+авг 19 12:22:10 userpc sshd[11448]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 19 12:22:10 userpc systemd-logind[592]: New session 9 of user user2.
+авг 19 12:22:10 userpc systemd[1]: Created slice User Slice of UID 1001.
+авг 19 12:22:10 userpc systemd[1]: Starting User Runtime Directory /run/user/1001...
+авг 19 12:22:11 userpc systemd[1]: Finished User Runtime Directory /run/user/1001.
+авг 19 12:22:11 userpc systemd[1]: Starting User Manager for UID 1001...
+авг 19 12:22:11 userpc systemd[11452]: pam_unix(systemd-user:session): session opened for user user2(uid=1001) by (uid=0)
+авг 19 12:22:13 userpc systemd[11452]: Queued start job for default target Main User Target.
+авг 19 12:22:13 userpc systemd[11452]: Created slice User Application Slice.
+авг 19 12:22:13 userpc systemd[11452]: Created slice User Background Tasks Slice.
+авг 19 12:22:13 userpc systemd[11452]: Created slice User Core Session Slice.
+авг 19 12:22:13 userpc systemd[11452]: Started Pending report trigger for Ubuntu Report.
+авг 19 12:22:13 userpc systemd[11452]: Reached target Paths.
+авг 19 12:22:13 userpc systemd[11452]: Reached target Timers.
+авг 19 12:22:13 userpc systemd[11452]: Starting D-Bus User Message Bus Socket...
+авг 19 12:22:13 userpc systemd[11452]: Listening on GnuPG network certificate management daemon.
+авг 19 12:22:13 userpc systemd[11452]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+авг 19 12:22:13 userpc systemd[11452]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+авг 19 12:22:13 userpc systemd[11452]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+авг 19 12:22:13 userpc systemd[11452]: Listening on GnuPG cryptographic agent and passphrase cache.
+авг 19 12:22:13 userpc systemd[11452]: Listening on PipeWire Multimedia System Socket.
+авг 19 12:22:13 userpc systemd[11452]: Listening on debconf communication socket.
+авг 19 12:22:13 userpc systemd[11452]: Listening on Sound System.
+авг 19 12:22:13 userpc systemd[11452]: Listening on REST API socket for snapd user session agent.
+авг 19 12:22:13 userpc systemd[11452]: Listening on Speech Dispatcher Socket.
+авг 19 12:22:14 userpc systemd[11452]: Listening on D-Bus User Message Bus Socket.
+авг 19 12:22:14 userpc systemd[11452]: Reached target Sockets.
+авг 19 12:22:14 userpc systemd[11452]: Reached target Basic System.
+авг 19 12:22:14 userpc systemd[1]: Started User Manager for UID 1001.
+авг 19 12:22:14 userpc systemd[1]: Started Session 9 of User user2.
+авг 19 12:22:14 userpc systemd[11452]: Started PipeWire Multimedia Service.
+авг 19 12:22:14 userpc systemd[11452]: Started PipeWire Media Session Manager.
+авг 19 12:22:14 userpc systemd[11452]: Starting Sound Service...
+авг 19 12:22:14 userpc systemd[11452]: Started Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+авг 19 12:22:14 userpc systemd[11452]: Starting Tracker metadata extractor...
+авг 19 12:22:15 userpc rtkit-daemon[1211]: Supervising 6 threads of 3 processes of 2 users.
+авг 19 12:22:15 userpc rtkit-daemon[1211]: Supervising 6 threads of 3 processes of 2 users.
+авг 19 12:22:15 userpc pipewire[11459]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+авг 19 12:22:15 userpc pipewire[11459]: mod.rt: could not set nice-level to -11: Отказано в доступе
+авг 19 12:22:17 userpc systemd[11452]: Started D-Bus User Message Bus.
+авг 19 12:22:17 userpc rtkit-daemon[1211]: Supervising 6 threads of 3 processes of 2 users.
+авг 19 12:22:17 userpc pipewire-media-session[11460]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+авг 19 12:22:17 userpc pipewire-media-session[11460]: mod.rt: could not make thread 11487 realtime using RTKit: Отказано в доступе
+авг 19 12:22:20 userpc sshd[11448]: pam_unix(sshd:session): session closed for user user2
+авг 19 12:22:20 userpc systemd[1]: session-9.scope: Deactivated successfully.
+авг 19 12:22:20 userpc systemd-logind[592]: Session 9 logged out. Waiting for processes to exit.
+авг 19 12:22:20 userpc systemd-logind[592]: Removed session 9.
+авг 19 12:22:22 userpc sshd[11508]: Accepted password for user2 from 127.0.0.1 port 41430 ssh2
+авг 19 12:22:22 userpc sshd[11508]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 19 12:22:22 userpc systemd-logind[592]: New session 11 of user user2.
+авг 19 12:22:22 userpc systemd[1]: Started Session 11 of User user2.
+авг 19 12:22:25 userpc dbus-daemon[11485]: [session uid=1001 pid=11485] AppArmor D-Bus mediation is enabled
+авг 19 12:22:26 userpc rtkit-daemon[1211]: Supervising 6 threads of 3 processes of 2 users.
+авг 19 12:22:26 userpc pipewire[11459]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+авг 19 12:22:26 userpc pipewire[11459]: mod.rt: could not make thread 11550 realtime using RTKit: Отказано в доступе
+авг 19 12:22:26 userpc sudo[11549]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/7zip-full.deb
+авг 19 12:22:26 userpc sudo[11549]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+авг 19 12:22:29 userpc dbus-daemon[576]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.178' (uid=1001 pid=11461 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+авг 19 12:22:29 userpc systemd[1]: Condition check resulted in Bluetooth service being skipped.
+авг 19 12:22:29 userpc rtkit-daemon[1211]: Supervising 6 threads of 3 processes of 2 users.
+авг 19 12:22:29 userpc rtkit-daemon[1211]: Supervising 6 threads of 3 processes of 2 users.
+авг 19 12:22:29 userpc rtkit-daemon[1211]: Supervising 6 threads of 3 processes of 2 users.
+авг 19 12:22:29 userpc rtkit-daemon[1211]: Supervising 6 threads of 3 processes of 2 users.
+авг 19 12:22:29 userpc rtkit-daemon[1211]: Supervising 6 threads of 3 processes of 2 users.
+авг 19 12:22:30 userpc systemd[11452]: Started Sound Service.
+авг 19 12:22:33 userpc dbus-daemon[11485]: [session uid=1001 pid=11485] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.4' (uid=1001 pid=11462 comm="/usr/bin/snap run snapd-desktop-integration " label="unconfined")
+авг 19 12:22:33 userpc systemd[11452]: Starting flatpak document portal service...
+авг 19 12:22:33 userpc dbus-daemon[11485]: [session uid=1001 pid=11485] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.5' (uid=1001 pid=11570 comm="/usr/libexec/xdg-document-portal " label="unconfined")
+авг 19 12:22:33 userpc systemd[11452]: Starting sandboxed app permission store...
+авг 19 12:22:33 userpc dbus-daemon[11485]: [session uid=1001 pid=11485] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+авг 19 12:22:33 userpc systemd[11452]: Started sandboxed app permission store.
+авг 19 12:22:33 userpc systemd[11452]: Started flatpak document portal service.
+авг 19 12:22:33 userpc dbus-daemon[11485]: [session uid=1001 pid=11485] Successfully activated service 'org.freedesktop.portal.Documents'
+авг 19 12:22:50 userpc snapd-desktop-i[11629]: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+авг 19 12:22:51 userpc snapd-desktop-i[11629]: Failed to do gtk init. Waiting for a new session with desktop capabilities.
+авг 19 12:22:51 userpc snapd-desktop-i[11629]: Checking session /org/freedesktop/login1/session/_311...
+авг 19 12:22:51 userpc snapd-desktop-i[11629]: Checking session /org/freedesktop/login1/session/_32...
+авг 19 12:22:54 userpc dbus-daemon[576]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+авг 19 12:22:54 userpc pulseaudio[11461]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+авг 19 12:23:01 userpc systemd[11452]: snap.snapd-desktop-integration.snapd-desktop-integration.service: systemd-oomd killed 3 process(es) in this unit.
+авг 19 12:23:01 userpc systemd[11452]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Main process exited, code=killed, status=9/KILL
+авг 19 12:23:01 userpc systemd[11452]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Killing process 11632 (gdbus) with signal SIGKILL.
+авг 19 12:23:01 userpc systemd[11452]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Failed with result 'signal'.
+авг 19 12:23:01 userpc systemd[11452]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Consumed 3.714s CPU time.
+авг 19 12:23:02 userpc systemd-oomd[531]: Killed /user.slice/user-1001.slice/user@1001.service/app.slice/snap.snapd-desktop-integration.snapd-desktop-integration.service due to memory pressure for /user.slice/user-1001.slice/user@1001.service being 88.61% > 50.00% for > 20s with reclaim activity
+авг 19 12:23:10 userpc dbus-daemon[11485]: [session uid=1001 pid=11485] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.7' (uid=1001 pid=11463 comm="/usr/libexec/tracker-extract-3 " label="unconfined")
+авг 19 12:23:10 userpc systemd[11452]: Starting Virtual filesystem service...
+авг 19 12:23:12 userpc dbus-daemon[11485]: [session uid=1001 pid=11485] Successfully activated service 'org.gtk.vfs.Daemon'
+авг 19 12:23:12 userpc systemd[11452]: Started Virtual filesystem service.
+авг 19 12:23:15 userpc sudo[11549]: pam_unix(sudo:session): session closed for user root
+авг 19 12:23:16 userpc sshd[11508]: pam_unix(sshd:session): session closed for user user2
+авг 19 12:23:16 userpc systemd[1]: session-11.scope: Deactivated successfully.
+авг 19 12:23:16 userpc systemd[1]: session-11.scope: Consumed 2.487s CPU time.
+авг 19 12:23:16 userpc systemd-logind[592]: Session 11 logged out. Waiting for processes to exit.
+авг 19 12:23:16 userpc systemd-logind[592]: Removed session 11.
+авг 19 12:23:17 userpc sshd[11672]: Accepted password for user2 from 127.0.0.1 port 45300 ssh2
+авг 19 12:23:17 userpc sshd[11672]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 19 12:23:17 userpc systemd-logind[592]: New session 12 of user user2.
+авг 19 12:23:18 userpc systemd[1]: Started Session 12 of User user2.
+авг 19 12:23:18 userpc systemd-oomd[531]: Killed /user.slice/user-1001.slice/user@1001.service/background.slice/tracker-extract-3.service due to memory pressure for /user.slice/user-1001.slice/user@1001.service being 72.02% > 50.00% for > 20s with reclaim activity
+авг 19 12:23:18 userpc systemd[11452]: tracker-extract-3.service: systemd-oomd killed 4 process(es) in this unit.
+авг 19 12:23:18 userpc systemd[11452]: tracker-extract-3.service: Main process exited, code=killed, status=9/KILL
+авг 19 12:23:18 userpc systemd[11452]: tracker-extract-3.service: Failed with result 'signal'.
+авг 19 12:23:18 userpc systemd[11452]: Failed to start Tracker metadata extractor.
+авг 19 12:23:18 userpc systemd[11452]: Reached target Main User Target.
+авг 19 12:23:18 userpc systemd[11452]: Startup finished in 1min 6.640s.
+авг 19 12:23:19 userpc sudo[11714]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+авг 19 12:23:19 userpc sudo[11714]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+авг 19 12:23:19 userpc sudo[11714]: pam_unix(sudo:session): session closed for user root
+авг 19 12:23:19 userpc sshd[11672]: pam_unix(sshd:session): session closed for user user2
+авг 19 12:23:19 userpc systemd-logind[592]: Session 12 logged out. Waiting for processes to exit.
+авг 19 12:23:19 userpc systemd[1]: session-12.scope: Deactivated successfully.
+авг 19 12:23:19 userpc systemd-logind[592]: Removed session 12.

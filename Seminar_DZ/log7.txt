@@ -1,0 +1,85 @@
+авг 19 12:24:10 userpc sshd[13462]: pam_unix(sshd:session): session closed for user user2
+авг 19 12:24:10 userpc systemd[1]: session-55.scope: Deactivated successfully.
+авг 19 12:24:10 userpc systemd-logind[592]: Session 55 logged out. Waiting for processes to exit.
+авг 19 12:24:10 userpc systemd-logind[592]: Removed session 55.
+авг 19 12:24:10 userpc sshd[13504]: Accepted password for user2 from 127.0.0.1 port 40526 ssh2
+авг 19 12:24:10 userpc sshd[13504]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 19 12:24:10 userpc systemd-logind[592]: New session 56 of user user2.
+авг 19 12:24:10 userpc systemd[1]: Started Session 56 of User user2.
+авг 19 12:24:10 userpc sshd[13504]: pam_unix(sshd:session): session closed for user user2
+авг 19 12:24:10 userpc systemd[1]: session-56.scope: Deactivated successfully.
+авг 19 12:24:10 userpc systemd-logind[592]: Session 56 logged out. Waiting for processes to exit.
+авг 19 12:24:10 userpc systemd-logind[592]: Removed session 56.
+авг 19 12:24:10 userpc sshd[13544]: Accepted password for user2 from 127.0.0.1 port 40532 ssh2
+авг 19 12:24:10 userpc sshd[13544]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 19 12:24:10 userpc systemd-logind[592]: New session 57 of user user2.
+авг 19 12:24:11 userpc systemd[1]: Started Session 57 of User user2.
+авг 19 12:24:13 userpc sshd[13544]: pam_unix(sshd:session): session closed for user user2
+авг 19 12:24:13 userpc systemd-logind[592]: Session 57 logged out. Waiting for processes to exit.
+авг 19 12:24:13 userpc systemd[1]: session-57.scope: Deactivated successfully.
+авг 19 12:24:13 userpc systemd[1]: session-57.scope: Consumed 2.539s CPU time.
+авг 19 12:24:13 userpc systemd-logind[592]: Removed session 57.
+авг 19 12:24:14 userpc sshd[13590]: Accepted password for user2 from 127.0.0.1 port 60814 ssh2
+авг 19 12:24:14 userpc sshd[13590]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 19 12:24:14 userpc systemd-logind[592]: New session 58 of user user2.
+авг 19 12:24:14 userpc systemd[1]: Started Session 58 of User user2.
+авг 19 12:24:15 userpc sshd[13590]: pam_unix(sshd:session): session closed for user user2
+авг 19 12:24:15 userpc systemd[1]: session-58.scope: Deactivated successfully.
+авг 19 12:24:15 userpc systemd-logind[592]: Session 58 logged out. Waiting for processes to exit.
+авг 19 12:24:15 userpc systemd-logind[592]: Removed session 58.
+авг 19 12:24:15 userpc sshd[13630]: Accepted password for user2 from 127.0.0.1 port 60824 ssh2
+авг 19 12:24:15 userpc sshd[13630]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 19 12:24:15 userpc systemd-logind[592]: New session 59 of user user2.
+авг 19 12:24:15 userpc systemd[1]: Started Session 59 of User user2.
+авг 19 12:24:16 userpc sshd[13630]: pam_unix(sshd:session): session closed for user user2
+авг 19 12:24:16 userpc systemd[1]: session-59.scope: Deactivated successfully.
+авг 19 12:24:16 userpc systemd-logind[592]: Session 59 logged out. Waiting for processes to exit.
+авг 19 12:24:16 userpc systemd-logind[592]: Removed session 59.
+авг 19 12:24:16 userpc sshd[13672]: Accepted password for user2 from 127.0.0.1 port 60836 ssh2
+авг 19 12:24:16 userpc sshd[13672]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 19 12:24:16 userpc systemd-logind[592]: New session 60 of user user2.
+авг 19 12:24:16 userpc systemd[1]: Started Session 60 of User user2.
+авг 19 12:24:16 userpc sshd[13672]: pam_unix(sshd:session): session closed for user user2
+авг 19 12:24:16 userpc systemd[1]: session-60.scope: Deactivated successfully.
+авг 19 12:24:16 userpc systemd-logind[592]: Session 60 logged out. Waiting for processes to exit.
+авг 19 12:24:16 userpc systemd-logind[592]: Removed session 60.
+авг 19 12:24:17 userpc sshd[13713]: Accepted password for user2 from 127.0.0.1 port 60840 ssh2
+авг 19 12:24:17 userpc sshd[13713]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 19 12:24:17 userpc systemd-logind[592]: New session 61 of user user2.
+авг 19 12:24:17 userpc systemd[1]: Started Session 61 of User user2.
+авг 19 12:24:17 userpc sshd[13713]: pam_unix(sshd:session): session closed for user user2
+авг 19 12:24:17 userpc systemd[1]: session-61.scope: Deactivated successfully.
+авг 19 12:24:17 userpc systemd-logind[592]: Session 61 logged out. Waiting for processes to exit.
+авг 19 12:24:17 userpc systemd-logind[592]: Removed session 61.
+авг 19 12:24:18 userpc sshd[13754]: Accepted password for user2 from 127.0.0.1 port 60856 ssh2
+авг 19 12:24:18 userpc sshd[13754]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 19 12:24:18 userpc systemd-logind[592]: New session 62 of user user2.
+авг 19 12:24:18 userpc systemd[1]: Started Session 62 of User user2.
+авг 19 12:24:18 userpc sshd[13754]: pam_unix(sshd:session): session closed for user user2
+авг 19 12:24:18 userpc systemd[1]: session-62.scope: Deactivated successfully.
+авг 19 12:24:18 userpc systemd-logind[592]: Session 62 logged out. Waiting for processes to exit.
+авг 19 12:24:18 userpc systemd-logind[592]: Removed session 62.
+авг 19 12:24:18 userpc sshd[13795]: Accepted password for user2 from 127.0.0.1 port 60862 ssh2
+авг 19 12:24:18 userpc sshd[13795]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 19 12:24:18 userpc systemd-logind[592]: New session 63 of user user2.
+авг 19 12:24:18 userpc systemd[1]: Started Session 63 of User user2.
+авг 19 12:24:19 userpc sshd[13795]: pam_unix(sshd:session): session closed for user user2
+авг 19 12:24:19 userpc systemd-logind[592]: Session 63 logged out. Waiting for processes to exit.
+авг 19 12:24:19 userpc systemd[1]: session-63.scope: Deactivated successfully.
+авг 19 12:24:19 userpc systemd-logind[592]: Removed session 63.
+авг 19 12:24:19 userpc sshd[13836]: Accepted password for user2 from 127.0.0.1 port 60876 ssh2
+авг 19 12:24:19 userpc sshd[13836]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 19 12:24:19 userpc systemd-logind[592]: New session 64 of user user2.
+авг 19 12:24:19 userpc systemd[1]: Started Session 64 of User user2.
+авг 19 12:24:20 userpc sshd[13836]: pam_unix(sshd:session): session closed for user user2
+авг 19 12:24:20 userpc systemd[1]: session-64.scope: Deactivated successfully.
+авг 19 12:24:20 userpc systemd-logind[592]: Session 64 logged out. Waiting for processes to exit.
+авг 19 12:24:20 userpc systemd-logind[592]: Removed session 64.
+авг 19 12:24:20 userpc sshd[13877]: Accepted password for user2 from 127.0.0.1 port 60882 ssh2
+авг 19 12:24:20 userpc sshd[13877]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 19 12:24:20 userpc systemd-logind[592]: New session 65 of user user2.
+авг 19 12:24:20 userpc systemd[1]: Started Session 65 of User user2.
+авг 19 12:24:21 userpc sshd[13877]: pam_unix(sshd:session): session closed for user user2
+авг 19 12:24:21 userpc systemd[1]: session-65.scope: Deactivated successfully.
+авг 19 12:24:21 userpc systemd-logind[592]: Session 65 logged out. Waiting for processes to exit.
+авг 19 12:24:21 userpc systemd-logind[592]: Removed session 65.

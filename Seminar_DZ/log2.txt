@@ -1,0 +1,25 @@
+авг 19 12:23:30 userpc sshd[11926]: pam_unix(sshd:session): session closed for user user2
+авг 19 12:23:30 userpc systemd-logind[592]: Session 18 logged out. Waiting for processes to exit.
+авг 19 12:23:30 userpc systemd[1]: session-18.scope: Deactivated successfully.
+авг 19 12:23:30 userpc systemd-logind[592]: Removed session 18.
+авг 19 12:23:30 userpc sshd[11968]: Accepted password for user2 from 127.0.0.1 port 55774 ssh2
+авг 19 12:23:30 userpc sshd[11968]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 19 12:23:30 userpc systemd-logind[592]: New session 19 of user user2.
+авг 19 12:23:30 userpc systemd[1]: Started Session 19 of User user2.
+авг 19 12:23:30 userpc sshd[11968]: pam_unix(sshd:session): session closed for user user2
+авг 19 12:23:30 userpc systemd-logind[592]: Session 19 logged out. Waiting for processes to exit.
+авг 19 12:23:30 userpc systemd[1]: session-19.scope: Deactivated successfully.
+авг 19 12:23:30 userpc systemd-logind[592]: Removed session 19.
+авг 19 12:23:31 userpc sshd[12009]: Accepted password for user2 from 127.0.0.1 port 55784 ssh2
+авг 19 12:23:31 userpc sshd[12009]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 19 12:23:31 userpc systemd-logind[592]: New session 20 of user user2.
+авг 19 12:23:31 userpc systemd[1]: Started Session 20 of User user2.
+авг 19 12:23:34 userpc sshd[12009]: pam_unix(sshd:session): session closed for user user2
+авг 19 12:23:34 userpc systemd-logind[592]: Session 20 logged out. Waiting for processes to exit.
+авг 19 12:23:34 userpc systemd[1]: session-20.scope: Deactivated successfully.
+авг 19 12:23:34 userpc systemd[1]: session-20.scope: Consumed 2.213s CPU time.
+авг 19 12:23:34 userpc systemd-logind[592]: Removed session 20.
+авг 19 12:23:34 userpc sshd[12052]: Accepted password for user2 from 127.0.0.1 port 60914 ssh2
+авг 19 12:23:34 userpc sshd[12052]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 19 12:23:34 userpc systemd-logind[592]: New session 21 of user user2.
+авг 19 12:23:34 userpc systemd[1]: Started Session 21 of User user2.

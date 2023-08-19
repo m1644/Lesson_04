@@ -1,0 +1,4 @@
+авг 19 12:23:49 userpc sshd[12635]: pam_unix(sshd:session): session closed for user user2
+авг 19 12:23:49 userpc systemd[1]: session-35.scope: Deactivated successfully.
+авг 19 12:23:49 userpc systemd-logind[592]: Session 35 logged out. Waiting for processes to exit.
+авг 19 12:23:49 userpc systemd-logind[592]: Removed session 35.

@@ -1,0 +1,6 @@
+авг 19 12:24:27 userpc systemd-logind[592]: New session 72 of user user2.
+авг 19 12:24:27 userpc systemd[1]: Started Session 72 of User user2.
+авг 19 12:24:27 userpc sshd[14168]: pam_unix(sshd:session): session closed for user user2
+авг 19 12:24:27 userpc systemd[1]: session-72.scope: Deactivated successfully.
+авг 19 12:24:27 userpc systemd-logind[592]: Session 72 logged out. Waiting for processes to exit.
+авг 19 12:24:27 userpc systemd-logind[592]: Removed session 72.
